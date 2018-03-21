@@ -20,7 +20,7 @@ namespace WeaApiCore.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return id.ToString();
+            return "qwe"+id.ToString();
         }
 
         // POST api/values
